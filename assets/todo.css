@@ -1,0 +1,195 @@
+/* nanoscrollbar */
+.nano .pane   { background: #888; }
+.nano .slider { background: #111; }
+
+body {
+    border: 0 !important;
+}
+.maindiv
+{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#mainform
+{
+    width: 50%;
+}
+
+#inpiytype
+{
+    width: 80%;
+    height: 30px;
+    border: -1px;
+    border-radius: 6px;
+    padding-left: 12px;
+    margin: 14px 0px 0px 28px;
+}
+
+#container{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    margin: 0px;
+}
+#totalcount
+{
+    width: 80px;
+    float: right;
+    background-color: #5AC4E2;
+    height: 37px;
+    margin-right: 31px;
+    margin-top: -48px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+#totalcount span
+{
+    padding: 0px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#Pendingcount
+{
+    height: 20px;
+    background-color: #5AC4E2;
+    width: 41px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+#Pendingcount span
+{
+    padding: 0px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 8px;
+    color: #fff;
+}
+#inProgresscount
+{
+    height: 20px;
+    background-color: #5AC4E2;
+    width: 41px;
+    border-radius: 3px;
+    margin-left: 5px; 
+}
+#inProgresscount span
+{
+    padding: 0px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 8px;
+    color: #fff;
+}
+
+#completedcount
+{
+    height: 20px;
+    background-color: #5AC4E2;
+    width: 41px;
+    border-radius: 3px;
+    margin-left: 5px; 
+}
+#completedcount span
+{
+    padding: 0px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 8px;
+    color: #fff;
+}
+#inerdiv
+{
+    background-color: #437698;
+    height: 295px;
+    width: 96%;
+    margin-left: 26px;
+    float: left;
+}
+
+#header{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.task-list{
+  width: 236px;
+    float: left;
+    margin: 20px 26px;
+    min-height: 240px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+
+}
+
+.task-list input, .task-list textarea{
+    width: 240px;
+    margin: 1px 5px;
+}
+
+.task-list input{
+    height: 30px;
+}
+
+.todo-task{
+    border-radius: 5px;
+    background-color: #fff;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.task-list input[type="button"]{
+    width: 100px;
+    margin: 5px;
+
+}
+
+.todo-task > .task-header{
+    font-weight: bold;
+}
+
+.todo-task > .task-date{
+    font-size: small;
+    font-style: italic;
+}
+
+.todo-task > .task-description{
+    font-size: smaller;
+}
+
+#pendingdiv
+{
+
+}
+
+h3{
+    text-align: left;
+    background-color: #1B95E0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: serif;
+}
+
+h3 span
+{
+        margin-left: 10px;
+    font-size: 16px;
+}
+
+#delete-div{
+    display: none;
+    background-color: #fff;
+    border: 3px dotted #000;
+    margin: 10px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
